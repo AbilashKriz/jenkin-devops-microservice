@@ -1,14 +1,14 @@
-node {
-	stage('Build') {
-		echo "Build"
-	}
-	stage('Test') {
-		echo "Test"
-	}
-	stage('Integration Test') {
-	       echo "Test"
-	}
-	stage('Sample Test') {
-	       echo "hey bro"
-	}
+pipeline {
+    stages{
+        stage{
+            steps {
+                echo"Hello world ! Abilash"
+            }
+        }
+        stage{
+            steps{
+                echo"Hello world! Swathi"
+            }            
+        }
+    }
 }
