@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build'){
             steps {
-                sh 'maven --version'
+                sh 'sudo maven --version'
                 echo "Build"
             }
         }
