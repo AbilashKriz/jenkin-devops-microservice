@@ -1,12 +1,12 @@
 pipeline {
-    stages{
-        stage{
+    stages {
+        stage('Build'){
             steps {
                 echo"Hello world ! Abilash"
             }
         }
-        stage{
-            steps{
+        stage('Test') {
+            steps {
                 echo"Hello world! Swathi"
             }            
         }
