@@ -16,7 +16,6 @@ pipeline {
                 echo"Example world"
             }
         }
-    } 
               
     post {
         always {
