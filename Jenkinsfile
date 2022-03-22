@@ -11,6 +11,11 @@ pipeline {
                 echo"Hello world! Swathi"
             }            
         }
+        stage('example' {
+            steps {
+                echo"Example world"
+            }
+        }
     } 
     post {
         always {
